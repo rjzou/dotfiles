@@ -1,5 +1,5 @@
 # tmux & tmuxinator
-alias hello 'tmux new-session -A -s ahonn'
+alias hello 'tmux new-session -A -s rjzou'
 alias bye 'tmux kill-server'
 alias kill 'tmux kill-session -t'
 
@@ -7,7 +7,7 @@ alias kill 'tmux kill-session -t'
 alias dot 'cd $DOTFILES'
 
 # neovim
-alias vim 'nvim'
+#alias vim 'nvim'
 
 # git
 alias gst 'git status'
