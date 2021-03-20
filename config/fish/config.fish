@@ -24,3 +24,4 @@ if test -e $DOTFILES/config/fish/proxy.fish
   # set proxy_auth false
   source $DOTFILES/config/fish/proxy.fish
 end
+set -g fish_user_paths "/usr/local/opt/openssl@1.1/bin" $fish_user_paths

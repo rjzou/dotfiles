@@ -64,9 +64,9 @@ casks=(
 )
 
 for cask in "${casks[@]}"; do
-  if brew cask list "$cask" >/dev/null 2>&1; then
+  if brew list "$cask" >/dev/null 2>&1; then
     echo "$cask already installed... skipping."
   else
-    brew cask install $cask
+    brew install $cask
   fi
 done
