@@ -85,3 +85,9 @@ if test -d $HOME/.just-installs/bin
 end
 
 set -gx OPENSSL_ROOT_DIR /usr/local/opt/openssl@1.1
+
+
+set -x JAVA_HOME /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/                                                                      
+set -x JRE_HOME {$JAVA_HOME}/jre                                                                                                                        
+set -x CLASSPATH . {$JAVA_HOME}/lib {$JRE_HOME}/lib                                                                                                     
+set -x PATH {$JAVA_HOME}/bin $PATH 
